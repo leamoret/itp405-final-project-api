@@ -20,7 +20,8 @@ var Artist = sequelize.define('artist', {
   },
   endorsement: {
     type: Sequelize.INTEGER,
-    field: 'endorsement'
+    field: 'endorsement',
+    defaultValue: 0
   }
 }, {
   timestamps: false

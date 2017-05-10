@@ -13,6 +13,10 @@ var Piece = sequelize.define('piece', {
   photo_url: {
     type: Sequelize.STRING,
     field: 'photo_url'
+  },
+  artist_id: {
+    type: Sequelize.INTEGER,
+    field: 'artist_id'
   }
 }, {
   timestamps: false
